@@ -486,3 +486,74 @@ input::placeholder {
   color: black;
   opacity: 0.6;
 }
+
+@media screen and (max-width: 1200px) {
+  .sidebar-footer {
+    width: 90%;
+  }
+  .trending,
+  .verified-box,
+  .follow-box {
+    width: 86%;
+  }
+  input[type="search"] {
+    width: 96.5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .menu {
+    flex: 5%;
+  }
+  .sidebar {
+    padding: 7px 12px;
+    flex: 50%;
+  }
+  input[type="search"] {
+    width: 103.5%;
+  }
+  .verified-box {
+    margin-top: 17%;
+    padding: 15px 12px 1px;
+  }
+  .verified-box a h4 {
+    width: 33%;
+    padding: 6px;
+  }
+  .trending,
+  .verified-box,
+  .follow-box {
+    width: 96%;
+  }
+  .trending {
+    padding: 1px 12px;
+  }
+  .follow-box {
+    padding: 1px 12px;
+  }
+  .follow-box-verify1 {
+    left: 66.7%;
+    top: 20.3%;
+  }
+  .follow-box-verify2 {
+    left: 52.6%;
+    top: 40%;
+  }
+  .follow-ad-image {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .follow-details img {
+    margin-right: 6px !important;
+  }
+  .trending h2,
+  .verified-box h2,
+  .follow-box h2 {
+    font-size: 1.4em;
+  }
+  .sidebar-footer {
+    width: 93%;
+  }
+  .sidebar-footer a {
+    margin-right: 8px;
+  }
+}
