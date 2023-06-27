@@ -1,7 +1,7 @@
 # Twitter homepage clone
 
-This project is a recreation of Twitter's homepage with purely HTML and CSS. The page is best viewed on a large screen, preferrbly a PC or laptop.
-With time, the page will be made responsive to display seamlessly on different screen sizes.
+This project is a recreation of Twitter's homepage with purely HTML and CSS. Most of the features are view-only.
+View the responsiveness of the site on different devices. Notice a collapsible sidebar on mobile devices.
 
 ## Preview
 
