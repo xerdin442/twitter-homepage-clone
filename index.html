@@ -33,11 +33,75 @@
         <img src="images/profile-pic.jpg" alt="" class="menu-profile" />
       </div>
 
+      <div id="sidenav">
+        <div class="sidenav-content">
+          <h3>Account Info</h3>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <img
+            src="images/profile-pic.jpg"
+            alt=""
+            class="sidenav-profile-pic"
+          />
+          <span class="sidenav-plus">+</span>
+
+          <h3 class="sidenav-name">'Kevwe</h3>
+          <img src="icons/verified.png" alt="" class="sidenav-verified" />
+          <p class="sidenav-username">@xerdin_442</p>
+
+          <span class="sidenav-following"
+            ><span class="sidenav-num">181</span>
+            <span class="sidenav-faint">Following</span></span
+          >
+          <span
+            ><span class="sidenav-num">1.3M</span>
+            <span class="sidenav-faint">Followers</span></span
+          >
+
+          <div class="sidenav-links">
+            <div class="links-img-box">
+              <img src="icons/user.png" alt="" class="links-img" />
+              <img src="icons/verified-black.png" alt="" class="links-img" />
+              <img src="icons/line.png" alt="" class="links-img lists-icon" />
+              <img src="icons/bookmark-white.png" alt="" class="links-img" />
+            </div>
+
+            <div class="links-name">
+              <h3>Profile</h3>
+              <h3>Twitter Blue</h3>
+              <h3>Lists</h3>
+              <h3>Bookmarks</h3>
+            </div>
+          </div>
+
+          <div class="sidenav-dropdowns">
+            <div class="dropdwon-name">
+              <h4>Creator Studio</h4>
+              <h4>Professional Tools</h4>
+              <h4>Settings and Support</h4>
+            </div>
+
+            <div class="dropdown-img-box">
+              <img src="icons/dropdown-arrow.png" alt="" class="dropdown-img arrow1">
+              <img src="icons/dropdown-arrow.png" alt="" class="dropdown-img arrow2">
+              <img src="icons/dropdown-arrow.png" alt="" class="dropdown-img arrow3">
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="feed">
         <h2>Home</h2>
 
         <div class="mobile-header">
-          <img src="images/profile-pic.jpg" alt="" class="sidebar-img" />
+          <img
+            src="images/profile-pic.jpg"
+            alt=""
+            class="sidenav-img"
+            onclick="openNav()"
+          />
           <img src="icons/twitter.png" alt="" class="mobile-header-logo" />
         </div>
 
@@ -100,7 +164,7 @@
             <p class="user-info">
               <span class="user-name">Ernesto Joe </span>
               <span class="user-details"
-                >@thecryptoIDAN <span class="dot">&dot;</span>&nbsp; 12m</span
+                >@cryptoIDAN <span class="dot">&dot;</span>&nbsp; 12m</span
               >
             </p>
             <div class="tweet-box-dots">&dot;&dot;&dot;</div>
@@ -159,10 +223,9 @@
           <img src="images/man-on-suit.jpeg" alt="" class="user-img" />
           <div class="user-tweet">
             <p class="user-info">
-              <span class="user-name">Engr. Dr. Okotete</span>
+              <span class="user-name">Engr. Okotete</span>
               <span class="user-details"
-                >@realOkoteteEvidence <span class="dot">&dot;</span>&nbsp;
-                9h</span
+                >@realOkotete <span class="dot">&dot;</span>&nbsp; 9h</span
               >
             </p>
             <div class="tweet-box-dots">&dot;&dot;&dot;</div>
@@ -183,121 +246,113 @@
             <span><img src="icons/share.png" alt="" class="share" /></span>
           </div>
         </div>
+      </div>
 
-        <div class="sidebar">
-          <div class="search-bar">
-            <input type="search" placeholder="Search Twitter" />
-            <span
-              ><img src="icons/search.png" alt="" class="search-icon"
-            /></span>
+      <div class="sidebar">
+        <div class="search-bar">
+          <input type="search" placeholder="Search Twitter" />
+          <span><img src="icons/search.png" alt="" class="search-icon" /></span>
+        </div>
+
+        <div class="verified-box">
+          <h2>Get Verified</h2>
+          <h4 class="subscribe">Subscribe to unlock new features.</h4>
+          <a href="#"><h4>Get Verified</h4></a>
+        </div>
+
+        <div class="trending">
+          <h2>Trends for you</h2>
+          <br />
+
+          <p>Trending in Nigeria</p>
+          <h4>Hilda Baci</h4>
+          <p>15.8K Tweets</p>
+          <div class="trending-dots1">&dot;&dot;&dot;</div>
+          <br />
+
+          <div class="trending-ad">
+            <h4>#MTN5G</h4>
+            <p>Naija's No.1 5G Network</p>
+            <p><span class="arrow">&nearr;</span> Promoted by MTN Nigeria</p>
           </div>
 
-          <div class="verified-box">
-            <h2>Get Verified</h2>
-            <h4 class="subscribe">Subscribe to unlock new features.</h4>
-            <a href="#"><h4>Get Verified</h4></a>
-          </div>
+          <p>
+            Business & finance <span class="trending-dot">&dot;</span>&nbsp;
+            Trending
+          </p>
+          <h4>Binance Nigeria Limited</h4>
+          <p>6,109 Tweets</p>
+          <div class="trending-dots2">&dot;&dot;&dot;</div>
+          <br />
 
-          <div class="trending">
-            <h2>Trends for you</h2>
-            <br />
+          <p>Trending in Nigeria</p>
+          <h4>7.5% VAT</h4>
+          <p>3,742 Tweets</p>
+          <div class="trending-dots3">&dot;&dot;&dot;</div>
+          <br />
 
-            <p>Trending in Nigeria</p>
-            <h4>Hilda Baci</h4>
-            <p>15.8K Tweets</p>
-            <div class="trending-dots1">&dot;&dot;&dot;</div>
-            <br />
+          <p>Soccer <span class="trending-dot">&dot;</span>&nbsp; Trending</p>
+          <h4>Soar Super Eagles</h4>
+          <p>91K Tweets</p>
+          <div class="trending-dots4">&dot;&dot;&dot;</div>
+          <br />
 
-            <div class="trending-ad">
-              <h4>#MTN5G</h4>
-              <p>Naija's No.1 5G Network</p>
-              <p><span class="arrow">&nearr;</span> Promoted by MTN Nigeria</p>
-            </div>
+          <a href="#" class="show-more">Show more</a>
+          <br />
+        </div>
 
+        <div class="follow-box">
+          <h2>Who to follow</h2>
+
+          <div class="follow-details">
+            <img src="images/man-cartoon.jpg" alt="" />
             <p>
-              Business & finance <span class="trending-dot">&dot;</span>&nbsp;
-              Trending
+              <span class="user-name"
+                >Name cannot be blank
+                <img src="icons/verified.png" alt="" class="follow-box-verify1"
+              /></span>
+              <br />
+              <span class="user-details">@hacksultan</span>
             </p>
-            <h4>Binance Nigeria Limited</h4>
-            <p>6,109 Tweets</p>
-            <div class="trending-dots2">&dot;&dot;&dot;</div>
-            <br />
-
-            <p>Trending in Nigeria</p>
-            <h4>7.5% VAT</h4>
-            <p>3,742 Tweets</p>
-            <div class="trending-dots3">&dot;&dot;&dot;</div>
-            <br />
-
-            <p>Soccer <span class="trending-dot">&dot;</span>&nbsp; Trending</p>
-            <h4>Soar Super Eagles</h4>
-            <p>91K Tweets</p>
-            <div class="trending-dots4">&dot;&dot;&dot;</div>
-            <br />
-
-            <a href="#" class="show-more">Show more</a>
-            <br />
+            <a href="#" class="follow-btn"><h4>Follow</h4></a>
           </div>
 
-          <div class="follow-box">
-            <h2>Who to follow</h2>
-
-            <div class="follow-details">
-              <img src="images/man-cartoon.jpg" alt="" />
-              <p>
-                <span class="user-name"
-                  >Name cannot be blank
-                  <img
-                    src="icons/verified.png"
-                    alt=""
-                    class="follow-box-verify1"
-                /></span>
-                <br />
-                <span class="user-details">@hacksultan</span>
-              </p>
-              <a href="#" class="follow-btn"><h4>Follow</h4></a>
-            </div>
-
-            <div class="follow-details">
-              <img src="images/man-blue-shirt.jpeg" alt="" />
-              <p>
-                <span class="user-name"
-                  >Enusonum Jerry
-                  <img
-                    src="icons/verified.png"
-                    alt=""
-                    class="follow-box-verify2"
-                /></span>
-                <br />
-                <span class="user-details">@thatslimdev</span>
-              </p>
-              <a href="#" class="follow-btn"><h4>Follow</h4></a>
-            </div>
-
-            <div class="follow-details">
-              <img src="images/microsoft.jpg" alt="" class="follow-ad-image" />
-              <p>
-                <span class="user-name">Microsoft</span> <br />
-                <span class="user-details">@microsoft</span><br />
-                <span class="arrow">&nearr;</span>
-                <span class="user-details promoted">Promoted</span>
-              </p>
-              <a href="#" class="follow-btn"><h4>Follow</h4></a>
-            </div>
-            <br />
-
-            <a href="#" class="show-more">Show more</a>
-            <br />
+          <div class="follow-details">
+            <img src="images/man-blue-shirt.jpeg" alt="" />
+            <p>
+              <span class="user-name"
+                >Enusonum Jerry
+                <img src="icons/verified.png" alt="" class="follow-box-verify2"
+              /></span>
+              <br />
+              <span class="user-details">@thatslimdev</span>
+            </p>
+            <a href="#" class="follow-btn"><h4>Follow</h4></a>
           </div>
 
-          <div class="sidebar-footer">
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Cookie Policy</a>
-            <a href="#">Accessibility</a><a href="#">Ads info</a>
-            <a href="#">More...</a>
-            <a href="#">&copy; 2023 X Corp.</a>
+          <div class="follow-details">
+            <img src="images/microsoft.jpg" alt="" class="follow-ad-image" />
+            <p>
+              <span class="user-name">Microsoft</span> <br />
+              <span class="user-details">@microsoft</span><br />
+              <span class="arrow">&nearr;</span>
+              <span class="user-details promoted">Promoted</span>
+            </p>
+            <a href="#" class="follow-btn"><h4>Follow</h4></a>
           </div>
+          <br />
+
+          <a href="#" class="show-more">Show more</a>
+          <br />
+        </div>
+
+        <div class="sidebar-footer">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Accessibility</a><a href="#">Ads info</a>
+          <a href="#">More...</a>
+          <a href="#">&copy; 2023 X Corp.</a>
         </div>
       </div>
     </div>
@@ -305,5 +360,19 @@
     <div class="quill-bg"></div>
     <div class="mobile-plus-sign">+</div>
     <img src="icons/quill.png" alt="" class="mobile-quill-img" />
+
+    <div class="mobile-footer">
+      <span class="home-icon">
+        <img src="icons/home.png" alt="" class="menu-img" />
+        <div class="white-circle"></div>
+        <div class="blue-circle"></div>
+      </span>
+
+      <img src="icons/search.png" alt="" class="search-img" />
+      <img src="icons/bell.png" alt="" class="menu-img bell" />
+      <img src="icons/envelope.png" alt="" class="menu-img envelope" />
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
