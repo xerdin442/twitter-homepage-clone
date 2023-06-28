@@ -5,7 +5,7 @@ View the responsiveness of the site on different devices. Notice a collapsible s
 
 ## Preview
 
-A preview of the homepage is shown below:
+A desktop preview is shown below:
 
 ![twitter-homepage-clone](https://github.com/xerdin442/twitter-homepage-clone/assets/110817844/36b4bf0f-9ed9-4ce8-8e5c-a92c8da6967e)
 

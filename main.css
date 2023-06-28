@@ -504,7 +504,7 @@ input::placeholder {
     width: 86.5%;
   }
   .user-tweet a {
-    margin: 12px 0 0 59px;
+    margin-left: 59px;
   }
   .red-heart {
     left: 35.5%;
@@ -572,7 +572,7 @@ input::placeholder {
     margin-left: 25px !important;
   }
   .user-tweet a {
-    margin: 12px 0 0 57px;
+    margin-left: 57px;
   }
   .tweet-text {
     margin-top: -4.5%;
@@ -620,7 +620,7 @@ input::placeholder {
     margin-left: 40px !important;
   }
   .user-tweet a {
-    margin: 12px 0 0 73px;
+    margin-left: 73px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -691,6 +691,7 @@ input::placeholder {
     position: absolute;
     right: 3%;
     top: 70px;
+    transform: scale(0.75);
   }
   .closebtn {
     text-decoration: none;
@@ -705,7 +706,7 @@ input::placeholder {
   }
   .sidenav-verified {
     position: absolute;
-    left: 27%;
+    left: 26%;
     top: 132px;
     width: 17px !important;
     height: 17px !important;
@@ -783,8 +784,7 @@ input::placeholder {
     height: 35px;
   }
   .user-info,
-  .tweet-text,
-  .user-tweet a {
+  .tweet-text {
     font-size: 0.9em;
   }
   .stats, .stats-num {
@@ -794,7 +794,7 @@ input::placeholder {
     margin-left: 32px !important;
   }
   .user-tweet a {
-    margin: 12px 0 0 95px;
+    margin-left: 95px;
   }
   .comment,
   .retweet,
@@ -838,7 +838,7 @@ input::placeholder {
     width: 48px;
     height: 48px;
     position: fixed;
-    bottom: 18%;
+    bottom: 16%;
     right: 5%;
   }
   .mobile-quill-img {
@@ -846,7 +846,7 @@ input::placeholder {
     width: 20px;
     height: 20px;
     position: fixed;
-    bottom: 20%;
+    bottom: 18%;
     right: 7%;
     filter: invert(100%);
   }
@@ -854,14 +854,14 @@ input::placeholder {
     display: block;
     font-weight: 600;
     position: fixed;
-    bottom: 21.5%;
+    bottom: 19.5%;
     right: 10%;
     color: white;
   }
   .mobile-footer {
     display: flex;
     margin: 0 -2%;
-    padding: 15px 35px 0;
+    padding: 10px 35px;
     justify-content: space-between;
     border-top: 1px solid #edecec;
     border-bottom: 1px solid #edecec;
@@ -870,18 +870,337 @@ input::placeholder {
     left: 0;
     background-color: white;
   }
+  .mobile-footer img {
+    margin-bottom: 0 !important;
+  }
 }
 @media screen and (max-width: 428px) {
+  #sidenav {
+    margin-left: -7%;
+  }
+  .sidenav-content {
+    padding-left: 15px;
+  }
+  .sidenav-verified {
+    left: 30%;
+  }
   .tweet-box-verify1 {
-    left: 24.7%;
+    left: 27.3%;
   }
   .red-heart {
-    left: 33.2%;
+    left: 37%;
+    top: 27.5px;
   }
   .tweet-box-verify2 {
-    left: 31.3%;
+    left: 34.9%;
   }
   .star {
-    right: 34.1%;
+    right: 26.5%;
+    top: 34.5px;
+  }
+  .user-tweet a:first-of-type {
+    margin-left: 24px !important;
+  }
+  .user-tweet a {
+    margin-left: 80px;
+  }
+  .mobile-quill-img {
+    right: 7.5%;
+  }
+  .mobile-plus-sign {
+    right: 10.5%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .tweet-text {
+    font-size: 0.85em;
+    margin-top: -4.5%;
+  }
+  .red-heart {
+    left: 37%;
+    top: 25.5px;
+    font-size: 20px;
+  }
+  .tweet-img1,
+  .tweet-img2 {
+    margin-top: -2.5%;
+  }
+  .tweet-box-verify1 {
+    left: 28.2%;
+  }
+  .tweet-box-verify2 {
+    left: 36%;
+  }
+  .star {
+    top: 32.5px;
+    width: 13px;
+    height: 13px;
+    right: 27.3%;
+  }
+  .quill-bg {
+    width: 44px;
+    height: 44px;
+  }
+  .user-tweet a {
+    margin: 8px 0 0 78px;
+    font-size: 0.85em;
+  }
+  .sidenav-verified {
+    left: 31%;
+  }
+  .sidenav-following {
+    margin-right: 8px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .tweet-box-verify1 {
+    left: 30.2%;
+  }
+  .tweet-box-verify2 {
+    left: 38.5%;
+  }
+  .star {
+    right: 22.7%;
+    top: 33.5px;
+  }
+  .red-heart {
+    left: 39.5%;
+    top: 26.5px;
+  }
+  .comment {
+    left: 18.5%;
+  }
+  .retweet {
+    left: 42%;
+  }
+  .user-tweet a {
+    margin: 7px 0 0 70px;
+  }
+  .mobile-footer img {
+    width: 20px;
+    height: 20px;
+  }
+  .envelope {
+    width: 18px !important;
+  }
+  .white-circle {
+    width: 6px;
+    height: 6px;
+    left: 7px;
+    top: 9px;
+  }
+  .blue-circle {
+    width: 5.5px;
+    height: 5.5px;
+    top: -1.5px;
+    right: -1.5px;
+  }
+  .sidenav-verified {
+    left: 32.4%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .feed-header h4 {
+    margin-bottom: 1em;
+  }
+  .tweet-box-verify1 {
+    left: 31.3%;
+  }
+  .tweet-box-verify2 {
+    left: 40%;
+  }
+  .star {
+    right: 19.7%;
+    top: 34px;
+  }
+  .red-heart {
+    left: 41%;
+    top: 27px;
+  }
+  .user-tweet a {
+    margin-left: 65px;
+  }
+  .quill-bg {
+    bottom: 12%;
+  }
+  .mobile-quill-img {
+    bottom: 14%;
+  }
+  .mobile-plus-sign {
+    bottom: 16%;
+  }
+  .sidenav-verified {
+    left: 33.3%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .feed-header {
+    padding: 0 18%;
+  }
+  .feed-header h4 {
+    font-size: 0.9em;
+  }
+  .blue-border {
+    width: 52px;
+  }
+  .user-info {
+    font-size: 0.85em;
+  }
+  .tweet-text {
+    font-size: 0.8em;
+    margin-top: -5.5%;
+  }
+  .user-tweet a {
+    font-size: 0.75em;
+    margin-left: 60px;
+  }
+  .tweet-box-verify1 {
+    left: 32%;
+  }
+  .tweet-box-verify2 {
+    left: 40.6%;
+  }
+  .star {
+    right: 20.3%;
+    top: 32px;
+    width: 11px;
+    height: 11px;
+  }
+  .red-heart {
+    left: 41.5%;
+    top: 24.5px;
+    font-size: 18px;
+  }
+  .comment,
+  .share,
+  .retweet,
+  .like {
+    width: 13px;
+    height: 13px !important;
+  }
+  .comment {
+    left: 20%;
+  }
+  .sidenav-verified {
+    left: 34.5%;
+  }
+  .tweet-img1,
+  .tweet-img2 {
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .tweet-box-verify1 {
+    left: 37%;
+  }
+  #sidenav {
+    margin-left: -8%;
+  }
+  .tweet-box {
+    padding: 12px 15px;
+  }
+  .tweet-box-dots {
+    right: 16px;
+    font-size: 30px;
+  }
+  .tweet-img1,
+  .tweet-img2 {
+    margin-top: -4%;
+  }
+  .user-tweet a:first-of-type {
+    margin-left: 18px !important;
+  }
+  .user-tweet a {
+    margin-left: 50px;
+  }
+  .like {
+    left: 66%;
+  }
+  .tweet-box-verify1 {
+    left: 34.6%;
+  }
+  .tweet-box-verify2 {
+    left: 44.4%;
+  }
+  .star {
+    right: 11.3%;
+    top: 34px;
+  }
+  .red-heart {
+    left: 45.3%;
+    top: 26.5px;
+  }
+  .quill-bg {
+    width: 41px;
+    height: 41px;
+  }
+  .mobile-quill-img {
+    width: 18px;
+    height: 18px;
+  }
+  .mobile-plus-sign {
+    font-weight: 400;
+    bottom: 15.5%;
+    right: 11%;
+  }
+  .sidenav-content h3 {
+    font-size: 1em;
+  }
+  .sidenav-username,
+  .sidenav-faint {
+    font-size: 0.85em;
+  }
+  .sidenav-num,
+  .dropdown-name h4 {
+    font-size: 0.88em;
+  }
+  .sidenav-username {
+    margin-bottom: 3px;
+  }
+  .closebtn {
+    font-size: 1.8em;
+  }
+  .sidenav-profile-pic {
+    margin-top: 28px;
+    width: 45px;
+    height: 45px;
+  }
+  .sidenav-plus {
+    transform: scale(0.6);
+    top: 52px;
+  }
+  .sidenav-verified {
+    top: 115px;
+  }
+  .sidenav-links {
+    margin-top: 20px;
+  }
+  .links-img {
+    width: 18px;
+    height: 18px;
+  }
+  .lists-icon {
+    width: 13px;
+    height: 13px;
+    margin-bottom: 22px;
+  }
+  .links-name h3:first-of-type {
+    padding: 3px;
+  }
+  .mobile-header {
+    padding-left: 8px;
+  }
+  .mobile-header-logo {
+    padding-left: 34%;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 5px;
+  }
+  .dropdown-img {
+    width: 12px;
+    height: 12px;
+  }
+  .arrow1 {
+    margin-top: 23px;
   }
 }
